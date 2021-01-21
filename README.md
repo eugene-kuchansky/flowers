@@ -10,7 +10,7 @@ Test data should be sent to standard input. The result is sent to standard outpu
 See the example below. sample.txt is an example file.
 
     git clone https://github.com/eugene-kuchansky/flowers.git bloomon-test-ek
-    cd test-ek
+    cd bloomon-test-ek
     docker build -t bloomon-test-ek .
     docker run --rm -i bloomon-test-ek < sample.txt
 
